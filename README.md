@@ -1,5 +1,5 @@
 
-I. A brief project overview
+I. Project overview
 This project involves the development of an Inventory Management System (IMS) using Python, aimed at helping businesses, small enterprises, or organizations effectively manage and track their inventory. The main goal is to automate the processes involved in tracking product stocks, managing orders, and generating reports to help optimize inventory control, thus ensuring smooth business operations.
 
 This system will include core features such as:
@@ -10,7 +10,7 @@ This system will include core features such as:
 - Managing product categories, suppliers, and transactions
 The project will contribute to SDG 8: Decent Work and Economic Growth by improving efficiency, reducing waste, and promoting good business practices, which help small businesses and organizations grow sustainably and provide decent employment opportunities. By creating an efficient inventory management system, businesses can optimize their resources, increase profitability, and create job opportunities, directly impacting the economic growth of the local community.
 
-II. Explanation of how Python concepts, libraries, etc. were applied
+II. Applied Python concepts
 In the development of this inventory management system, several Python concepts and libraries were utilized to create an efficient, functional, and user-friendly application:
 
 Python Basics:
@@ -20,20 +20,24 @@ Loops: For loops were used to iterate over lists of inventory items or orders to
 
 Data Structures:
 Lists and Dictionaries: Used for storing inventory details, such as product names, stock levels, and prices. Dictionaries are helpful for mapping each product to its specific information like ( item name, category, quantity).
+
 File Handling:
 CSV Files: CSV (Comma Separated Values) files were used to store inventory data and records. This allows for easy import and export of inventory details and keeps the data persistent across program runs. Python's built-in csv library is used to read, write, and manipulate the CSV files.
+
 User Interface:
 Tkinter: Used to build a graphical user interface (GUI) for the system. Tkinter provides buttons, text fields, and other interactive elements to allow users to interact with the system in a more intuitive manner.
 Error Handling: Implemented using try/except blocks to ensure that the system handles invalid inputs (e.g., negative numbers, incorrect file formats) gracefully.
+
 Data Validation and Reporting:
 Pandas: While optional, Pandas can be used to manage and analyze inventory data, generate reports, and handle more complex operations like sorting or filtering.
 Matplotlib: If required, Matplotlib could be integrated to generate visual charts (like bar charts or pie charts) to display inventory data and sales statistics.
+
 Database Integration (Optional):
 If the project requires storing larger amounts of data and supporting more complex operations, SQLite (a lightweight database) could be integrated for efficient data storage and querying.
 
 
 
-III. Details of the chosen SDG and its integration into the project
+III. Chosen SDG and its integration into the project
 SDG 8: Decent Work and Economic Growth promotes inclusive and sustainable economic growth, full and productive employment, and decent work for all. This project integrates SDG 8 in the following ways:
 
 Promoting Efficient Business Practices:
